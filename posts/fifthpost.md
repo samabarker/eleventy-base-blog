@@ -5,6 +5,9 @@ date: 2020-08-24
 tags:
   - second-tag
 layout: layouts/post.njk
+eleventyNavigation:
+  key: Post 5
+  order: 4
 ---
 Lorem
 
