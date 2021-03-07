@@ -5,15 +5,26 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="alert alert-primary" role="alert">
-  This is an alert banner on the home page only (hopefully!)
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center p-5">
+      <h1>Hi There, I'm Sam.</h1><br>
+      <h3>Web and Software Developer, Problem Solver.</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6 text-center p-3">
+      {% set maxPosts = collections.posts.length | min(1) %}
+      <h4>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h4>
+
+      {% set postslist = collections.posts | head(-1) %}
+      {% set postslistCounter = collections.posts | length %}
+      {% include "postslist.njk" %}
+    </div>
+
+    <div class="col-12 col-sm-6 text-center p-3">
+      <h4>Latest Project</h4>
+    </div>
+
+  </div>
 </div>
-
-{% set maxPosts = collections.posts.length | min(4) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
-
-{% set postslist = collections.posts | head(-4) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   </head>
   <body>
     <header>
-      <div class="container-fluid text-white bg-dark p-4 text-center">
-        <h1>My Blog</h1>
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 sb d-flex justify-content-center align-items-center p-4"><img src="{{ '/img/me.png' | url }}" alt="Me" /></div>
+          </div>
+          <nav>
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col text-center sb p-2">&nbsp</div>
+              
+              {%- for entry in collections.all | eleventyNavigation %}
+                <div class="col-lg-1 col-2 text-center sb p-2 {% if entry.url == page.url %} sb-current{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
+              {%- endfor %}
+              
+              <div class="col text-center sb p-2">&nbsp</div>
+            </div>
+          </nav>
       </div>
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-
       {{ content | safe }}
     </main>
 
     <footer>
-    <div class="container-fluid text-white bg-dark fixed-bottom p-4 text-center">
-      Sam Barker 2021
-    </div>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->

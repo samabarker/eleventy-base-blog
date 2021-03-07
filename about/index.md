@@ -1,10 +1,16 @@
 ---
-layout: layouts/post.njk
-title: About Me
-templateClass: tmpl-post
+layout: layouts/home.njk
 eleventyNavigation:
-  key: About Me
-  order: 3
+  key: Portfolio
+  order: 2
 ---
-
-I am a person that writes stuff. Watch this space!
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center p-5">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="col-12 text-center">
+      I am a person that writes stuff. Watch this space!
+    </div>
+  </div>
+</div>
