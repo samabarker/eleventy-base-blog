@@ -19,13 +19,13 @@
           </div>
           <nav>
             <div class="row d-flex justify-content-center align-items-center">
-              <div class="col text-center sb p-2">&nbsp</div>
+              <div class="col text-center sb p-2">&nbsp;</div>
               
               {%- for entry in collections.all | eleventyNavigation %}
                 <div class="col-lg-1 col-12 text-center sb p-2 {% if entry.url == page.url %} sb-current{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
               {%- endfor %}
               
-              <div class="col text-center sb p-2">&nbsp</div>
+              <div class="col text-center sb p-2">&nbsp;</div>
             </div>
           </nav>
       </div>
@@ -35,9 +35,13 @@
       {{ content | safe }}
     </main>
     <br>
-    <br>
 
     <footer>
+      <div class="container text-center p-2">
+        <hr>
+        Static 11ty site, hosted on Netlify, styled using Bootstrap. 	
+        <br>&#169; Sam Barker 2021
+      </div>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->

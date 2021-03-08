@@ -1,5 +1,5 @@
 .sb {
-    background-color: #d3d3d3;
+    background-color: #e2e3e5;
 }
 
 img {
@@ -15,6 +15,20 @@ a {
     color: black;
 }
 
-h1, h3 {
+h1, h3, h5 {
     font-weight: 100;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    color:#c6c6c6;
+}
+
+.sb-token {
+    border: 1px solid #e2e3e5;
+    border-radius: 10px;
+    background-color: white;
 }

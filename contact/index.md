@@ -5,9 +5,9 @@ eleventyNavigation:
   order: 4
 ---
 <div class="container">
-  <div class="row">
-    <div class="col-12 text-center p-5">
-      <h1>Contact</h1>
+  <div class="row p-5">
+    <div class="col-12 text-center">
+      <h1>Contact</h1><br>
     </div>
     <div class="col-12 text-center">
       <form name="contact" method="POST" data-netlify="true">
@@ -17,7 +17,7 @@ eleventyNavigation:
         <input type="email" id="email" name="email" required><br><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <input type="submit"><br><br>
+        <input type="submit">
       </form>
     </div>
   </div>
