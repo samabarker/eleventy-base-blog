@@ -22,7 +22,7 @@
               <div class="col text-center sb p-2">&nbsp</div>
               
               {%- for entry in collections.all | eleventyNavigation %}
-                <div class="col-lg-1 col-2 text-center sb p-2 {% if entry.url == page.url %} sb-current{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
+                <div class="col-lg-1 col-12 text-center sb p-2 {% if entry.url == page.url %} sb-current{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></div>
               {%- endfor %}
               
               <div class="col text-center sb p-2">&nbsp</div>
@@ -34,6 +34,8 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+    <br>
+    <br>
 
     <footer>
     </footer>
