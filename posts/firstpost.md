@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: First Blog Post - Hello!
-date: 2018-05-01
+date: 2021-03-03T00:00:00.000Z
 description: My first blog post on my new website!
 tags: blog
 ---
