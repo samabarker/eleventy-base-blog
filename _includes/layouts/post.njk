@@ -7,6 +7,7 @@ templateClass: tmpl-post
   <div class="row">
     <div class="col-12 p-5">
       <h1>{{ title }}</h1>
+      <h5><time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></h5>
       <br>
       {{ content | safe }}
     </div>

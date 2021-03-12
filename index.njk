@@ -17,7 +17,7 @@ eleventyNavigation:
       {% set maxPosts = collections.posts.length | min(1) %}
       <h5>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h5>
 
-      {% set postslist = collections[ "blog" ] | head(-1) %}
+      {% set postslist = collections[ "BLOG" ] | head(-1) %}
       {% set postslistCounter = collections.posts | length %}
       {% include "postslist.njk" %}
     </div>
@@ -26,6 +26,10 @@ eleventyNavigation:
 
     <div class="col-12 col-lg-5 text-center p-3 sb-token">
       <h5>Latest Project</h5>
+
+      {% set postslist = collections[ "CSS" ] | head(-1) %}
+      {% set postslistCounter = collections.posts | length %}
+      {% include "postslist.njk" %}
     </div>
 
   </div>
