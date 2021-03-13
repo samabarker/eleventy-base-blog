@@ -8,8 +8,14 @@ templateClass: tmpl-post
     <div class="col-12 p-5">
       <h1>{{ title }}</h1>
       <h5><time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></h5>
-      <br>
-      {{ content | safe }}
+      {% for tag in tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+        <span class= "tag {{ tag }}">{{ tag }}</span>
+        {%- endif -%}
+      {% endfor %}
+      <p>
+        {{ content | safe }}
+      </p>
     </div>
   </div>
 </div>

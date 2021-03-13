@@ -3,7 +3,12 @@
   <div class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">[{{ post.date | readableDate }}] - </time>
     <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a> 
-    <br><em>{{ post.data.description }}</em>
+    <p><em>{{ post.data.description }}</em></p>
+    {% for tag in post.data.tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      <span class= "tag {{ tag }}">{{ tag }}</span>
+      {%- endif -%}
+    {% endfor %}
   </div>
 {% endfor %}
 </div>

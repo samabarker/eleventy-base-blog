@@ -7,13 +7,13 @@ eleventyNavigation:
 
 <div class="container">
   <div class="row">
-    <div class="col-12 text-center p-5">
+    <div class="col-12 text-center p-5 pb-3">
       <h1>Hi There, I'm Sam.</h1><br>
       <h3>A Web Developer, Python Enthusiast and Problem Solver.</h3>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12 col-lg-5 text-center p-3 sb-token">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-5 text-center p-3 sb-token m-3">
       {% set maxPosts = collections.posts.length | min(1) %}
       <h5>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h5>
 
@@ -22,12 +22,10 @@ eleventyNavigation:
       {% include "postslist.njk" %}
     </div>
 
-    <div class="col-2 text-center p-3"></div>
-
-    <div class="col-12 col-lg-5 text-center p-3 sb-token">
+    <div class="col-12 col-lg-5 text-center p-3 sb-token m-3">
       <h5>Latest Project</h5>
 
-      {% set postslist = collections[ "CSS" ] | head(-1) %}
+      {% set postslist = collections[ "PROJECT" ] | head(-1) %}
       {% set postslistCounter = collections.posts | length %}
       {% include "postslist.njk" %}
     </div>
