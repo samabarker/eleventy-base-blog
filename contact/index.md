@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 4
 ---
 <div class="container">
-  <div class="row p-5 justify-content-center">
+  <div class="row p-5 pb-2 justify-content-center">
     <div class="col-12 text-center">
       <h1>Contact</h1><br>
     </div>

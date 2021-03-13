@@ -31,10 +31,47 @@ footer {
     border: 1px solid #e2e3e5;
     border-radius: 10px;
     background-color: white;
+    text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    img {
-      height: 200px;
+.tag {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.CSS {
+    color: white;
+    background-color: rgb(196, 196, 196);
+}
+
+.JS {
+    color: white;
+    background-color: rgb(196, 196, 196);
+}
+
+.PROJECT {
+    color: white;
+    background-color: rgb(118, 118, 118);
+}
+
+.BLOG {
+    color: white;
+    background-color: rgb(118, 118, 118);
+}
+
+
+@media screen and (max-width: 576px) {
+    .sb-token {
+        border-color: white;
     }
-  }
+
+    h3 {
+        font-size: medium;
+    }
+
+    img {
+        height: 200px;
+      }
+}
