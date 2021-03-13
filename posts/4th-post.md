@@ -3,7 +3,9 @@ layout: layouts/post.njk
 title: Python Terminal Games
 date: 2020-05-05T11:30:00.000Z
 description: Python Games that run in the Terminal
-tags: PROJECT
+tags:
+  - PROJECT
+  - PYTHON
 ---
 A few simple games I have built that can be played directly in the terminal. The idea here was to revisit some Python fundamentals and to solidify some of the basics, whilst also learning a bit more intermeidate-level Python.
 
