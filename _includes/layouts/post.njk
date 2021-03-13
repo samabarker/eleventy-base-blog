@@ -5,7 +5,7 @@ templateClass: tmpl-post
 
 <div class="container">
   <div class="row">
-    <div class="col-12 p-5">
+    <div class="col-12 p-3">
       <h1>{{ title }}</h1>
       <h5><time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></h5>
       {% for tag in tags %}

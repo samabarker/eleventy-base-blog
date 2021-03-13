@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <div class="container-fluid">
+      <div class="container-fluid line">
           <div class="row">
             <div class="col-12 sb d-flex justify-content-center align-items-center p-4 pb-1"><img src="{{ '/img/me.png' | url }}" alt="Me" /></div>
           </div>
@@ -29,7 +29,6 @@
           </nav>
       </div>
     </header>
-
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>

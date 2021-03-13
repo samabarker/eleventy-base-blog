@@ -71,6 +71,9 @@ footer {
     background-color: rgb(118, 118, 118);
 }
 
+.line {
+    border-bottom: 1px solid #e2e3e5;
+}
 
 @media screen and (max-width: 576px) {
     .sb-token {
@@ -78,13 +81,21 @@ footer {
     }
 
     h3 {
-        font-size: medium;
+        font-size: large;
         background-color: #e2e3e5;
+        background-color: white;
         padding: 5px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         border-radius: 5px;
     }
 
     img {
         height: 200px;
       }
+
+    .sb {
+        background-color: white;
+    }
+
 }
