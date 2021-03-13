@@ -9,7 +9,7 @@ tags:
   - CSS
   - HTML
 ---
-A very simple tool for generating gradient backgrounds, making use of HTML colour inputs for colour selection and JavaScript for displaying the results along with the correct CSS code for use elsewhere. A random colour generation function can also be used to obtain a gradient background from two random colours.
+A very simple tool for generating gradient backgrounds, making use of HTML colour inputs for colour selection and JavaScript DOM manipulation for displaying the results along with the correct CSS code for use elsewhere. A random colour generation function can also be used to obtain a gradient background from two random colours.
 
 [View on GitHub](https://github.com/samabarker/backgroundgenerator)
 
