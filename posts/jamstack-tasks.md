@@ -1,8 +1,8 @@
 ---
 layout: layouts/post.njk
-title: Jamstack Tasks
+title: Jamstack Bootcamp Tasks
 date: 2021-03-16T21:52:34.917Z
-description: My outputs for each of the tasks set on The Coders Guild Jamstack bootcamp
+description: Outputs for each of the tasks set on The Coders Guild Jamstack bootcamp
 tags:
   - PROJECT
   - CSS
