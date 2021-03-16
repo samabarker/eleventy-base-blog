@@ -1,12 +1,12 @@
 ---
 layout: layouts/post.njk
-title: Python GUI Game
-date: 2020-05-18T14:20:00.000Z
-description: Graphical Game built with Python
+title: Advent of Code 2020
+date: 2020-12-01T15:20:00.000Z
+description: Advent of Code 2020 coding challenge
 tags:
   - PROJECT
   - PYTHON
 ---
-After building a few games that can be played directly in the terminal, I wanted to have a play around with the PyGame package to build a more user friendly game.
+Each year, [Advent of Code](https://adventofcode.com/) releases two mathematical problems each day throughout December. These problems start easy and get progressively harder throughout the month. They require the programmer to think logically and, in some cases, use specialist algorithms to get to the solution. This is the second year I have taken part in the challenge, and although I didn't complete them all this year, I was pretty proud with how far I got and what I learned along the way. I used Python to tackle the problems as it is my primary language.
 
-* Dodge - A really simple first game where a 'player ship' has to avoid incoming 'enemy ships'. The enemy ships are randomly generated and have random speeds. There are 5 levels, getting incrementally more difficult in terms of number of enemies, enemy speeds and enemy sizes. The game keeps track of level, level score and overall score, all of which are displayed on the game screen. View on [Github](https://github.com/samabarker/pygames/blob/master/dodge.py) and [Repl](https://repl.it/@sambarkercom/dodge).
+View my solutions on [Github.](https://github.com/samabarker/advent-2020)
