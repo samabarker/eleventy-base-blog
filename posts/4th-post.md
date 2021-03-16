@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Python Terminal Games
+title: Python Games
 date: 2020-05-05T11:30:00.000Z
 description: Games built using Python
 tags:
