@@ -17,3 +17,4 @@ For information on the Jamstack bootcamp, see [this blog post](https://sambarker
 * Form Processing - Create a new page and add a HTML form. View on the [contact page](https://sambarker.uk/contact/).
 * Content Management - Add Netlify CMS to your site. The blog and portfolio on this website are managed using Netlify CMS. View the source on [Github](https://github.com/samabarker/eleventy-base-blog).
 * Programming Concepts - Create a tip calculator using JavaScript. View on [Github](https://github.com/samabarker/tip-calculator) or [Github Pages](https://samabarker.github.io/tip-calculator/).
+* Functions & Control Flow - Write a series of functions to perform different tasks. View on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/functions-practical.js).
