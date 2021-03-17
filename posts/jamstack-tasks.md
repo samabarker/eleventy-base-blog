@@ -18,3 +18,8 @@ For information on the Jamstack bootcamp, see [this blog post](https://sambarker
 * Content Management - Add Netlify CMS to your site. The blog and portfolio on this website are managed using Netlify CMS. View the source on [Github](https://github.com/samabarker/eleventy-base-blog).
 * Programming Concepts - Create a tip calculator using JavaScript. View on [Github](https://github.com/samabarker/tip-calculator) or [Github Pages](https://samabarker.github.io/tip-calculator/).
 * Functions & Control Flow - Write a series of functions to perform different tasks. View on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/functions-practical.js).
+* Pseudocode and Comments - Write Pseudocode for some JS challenges. View on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/pseudocode-tasks.js).
+
+Along side this, there have been a few extra tasks given that are not strictly part of the bootcamp but have been great to pratice the taught material and stretch capabilities.
+
+* JS Tech Test inc. Unit Testing - Determine when pay day is. View on [Github](https://github.com/samabarker/tech-test).
