@@ -19,7 +19,7 @@ For information on the Jamstack bootcamp, see [this blog post](https://sambarker
 * Programming Concepts - Create a tip calculator using JavaScript. View on [Github](https://github.com/samabarker/tip-calculator) or [Github Pages](https://samabarker.github.io/tip-calculator/).
 * Functions & Control Flow - Write a series of functions to perform different tasks. View on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/functions-practical.js).
 * Pseudocode and Comments - Write Pseudocode for some JS challenges. View on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/pseudocode-tasks.js).
-* Loops, Arrays & Objects - Play around with writing [loops](https://github.com/samabarker/bootcamp-misc/blob/main/loops.js), [arrays](https://github.com/samabarker/bootcamp-misc/blob/main/arrays.js) and [objects](https://github.com/samabarker/bootcamp-misc/blob/main/objects.js). Click the links to view on Github.
+* Loops, Arrays & Objects - Play around with writing [loops](https://github.com/samabarker/bootcamp-misc/blob/main/loops.js), [arrays](https://github.com/samabarker/bootcamp-misc/blob/main/arrays.js) and [objects](https://github.com/samabarker/bootcamp-misc/blob/main/objects.js). Click the links to view, or view more on [Github](https://github.com/samabarker/bootcamp-misc/blob/main/loops-objs-arrays%20practical.js).
 
 Along side this, there have been a few extra tasks given that are not strictly part of the bootcamp but have been great to pratice the taught material and stretch capabilities.
 
